@@ -8,7 +8,7 @@ import { startBot } from "./bot/telegramBot";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
+// Middlewares
 app.use(express.json());
 
 // Routes
